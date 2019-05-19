@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_new_post"
+            android:icon="@drawable/add_post"
+            android:title="Add New Post" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/friends"
+            android:title="Friends" />
+        <item
+            android:id="@+id/nav_find_friends"
+            android:icon="@drawable/find_people"
+            android:title="Find Friends" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/messages"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+    <item
+        android:checkable="true"
+        android:title="Explore">
+        <menu>
+            <item
+                android:id="@+id/nav_upload_prescription"
+                android:icon="@drawable/add_post"
+                android:title="Upload Prescription" />
+            <item
+                android:id="@+id/nav_online_consultant"
+                android:icon="@drawable/add_post"
+                android:title="Online Consultant" />
+            <item
+                android:id="@+id/nav_health_library"
+                android:icon="@drawable/add_post"
+                android:title="Health Library" />
+
+            <item
+                android:id="@+id/nav_view_offers"
+                android:icon="@drawable/add_post"
+                android:title="View Offers" />
+            <item
+                android:id="@+id/nav_ratee"
+                android:icon="@drawable/add_post"
+                android:title="Rate Our App" />
+            <item
+                android:id="@+id/nav_refer"
+                android:icon="@drawable/add_post"
+                android:title="Refer and Earn" />
+        </menu>
+    </item>
+
+</menu>

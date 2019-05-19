@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context=".Activities.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="Chat Book"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="33dp"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_title"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="70dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/edt_log_email"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:drawableTint="#E91E63"
+                        android:drawableLeft="@drawable/email"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/edt_bg"
+                        android:layout_height="50dp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/edt_log_password"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/edt_bg"
+                        android:inputType="numberPassword"
+                        android:layout_height="50dp"
+                        android:drawableTint="#E91E63"
+                        android:drawableLeft="@drawable/password"
+                        android:hint="Password"
+                        android:paddingLeft="10dp"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/forgot_passwordBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:paddingTop="5dp"
+                    android:textColor="#000"
+                    android:text="Forgot Password?" />
+
+                <Button
+
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/log_btn"
+                    android:text="Login"
+                    android:textColor="#fff"
+                    android:background="@drawable/btn_bg"/>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_profile_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/login_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:elevation="4dp"
+            android:src="@drawable/piki_icon" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/to_reg"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dnt have account? Click here"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#E91E63"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Or Login With"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000"/>
+
+    <LinearLayout
+        android:id="@+id/social_lin"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/google_log"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/google"/>
+        <ImageView
+            android:id="@+id/facebook_log"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/facebook"/>
+        <ImageView
+            android:id="@+id/twitter_log"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/twitter"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

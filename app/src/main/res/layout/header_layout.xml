@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="200dp"
+    android:background="@drawable/login">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/header_image"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#673AB7"
+        app:civ_border_width="3dp"/>
+
+    <TextView
+        android:id="@+id/header_name"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="John Micheal"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/header_email"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email@gmail.com"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>

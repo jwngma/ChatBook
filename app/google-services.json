@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "984535338540",
+    "firebase_url": "https://photoblog-c1a2b.firebaseio.com",
+    "project_id": "photoblog-c1a2b",
+    "storage_bucket": "photoblog-c1a2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984535338540:android:d4f229104ac7aa3f",
+        "android_client_info": {
+          "package_name": "com.example.coversliderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984535338540-4l9u6602t2bhkai5so4l7j13vjqseai4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coversliderapp",
+            "certificate_hash": "f2294880919370566529d8a35c68a3fc2866d88e"
+          }
+        },
+        {
+          "client_id": "984535338540-83ekskv1puneqk946hrq155edo126pln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfPrUpJdiXy41YeISUTUczekUG6gCiIF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984535338540-83ekskv1puneqk946hrq155edo126pln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984535338540:android:42fcb5e958eecc3d",
+        "android_client_info": {
+          "package_name": "com.store.chattbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984535338540-82jefh03735of6kdun390l20qmpfe5ij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.store.chattbook",
+            "certificate_hash": "f2294880919370566529d8a35c68a3fc2866d88e"
+          }
+        },
+        {
+          "client_id": "984535338540-83ekskv1puneqk946hrq155edo126pln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfPrUpJdiXy41YeISUTUczekUG6gCiIF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984535338540-83ekskv1puneqk946hrq155edo126pln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984535338540:android:1df55cdc350121c7",
+        "android_client_info": {
+          "package_name": "ml.mixweb.photoblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984535338540-51065mq13e23cavf75kjkfssge2bgqi9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ml.mixweb.photoblog",
+            "certificate_hash": "ef11b85ea6c9c8d8bee8d304e2410bf55a17c15d"
+          }
+        },
+        {
+          "client_id": "984535338540-83ekskv1puneqk946hrq155edo126pln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfPrUpJdiXy41YeISUTUczekUG6gCiIF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984535338540-83ekskv1puneqk946hrq155edo126pln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

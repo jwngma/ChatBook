@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/post_toolbar"
+            layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:layout_width="wrap_content"
+            android:layout_height="250dp">
+
+            <ImageView
+                android:id="@+id/add_image"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+
+                android:layout_height="250dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/add_post_high" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="150dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/edit_description"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:drawableTint="#E91E63"
+                    android:hint="Description"
+                    android:inputType="textNoSuggestions"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/edt_bg"
+                    android:layout_height="50dp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/btn_bg"
+            android:text="Add New Post"
+            android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
